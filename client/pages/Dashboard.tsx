@@ -81,7 +81,7 @@ export default function Dashboard() {
     try {
       // Connect to the Python backend analysis endpoint
       const backendUrl = import.meta.env.DEV
-        ? "https://sentrysolbeta-production.up.railway.app"
+        ? "https://agent.daemonprotocol.com"
         : window.location.origin;
       const analyzeUrl = `${backendUrl}/analyze/${analysisAddress}`;
 
